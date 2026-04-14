@@ -77,7 +77,17 @@ python app.py
 Open: **http://localhost:5000**
 
 ---
+## 🐳 Docker Image
 
+Pull and run the project using Docker:
+
+```bash
+docker pull animeshbokil/pharmasafe-app
+docker run -p 5000:5000 animeshbokil/pharmasafe-app
+docker run -p 5000:5000 \
+-e GROQ_API_KEY=your_api_key \
+animeshbokil/pharmasafe-app
+```
 ## 🔌 API Endpoints
 
 | Method | Endpoint | Description |
