@@ -1,4 +1,5 @@
 .env
 readme.md
 chat_history.db
-/__pycache__/
+__pycache__/
+*.pyc
